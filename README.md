@@ -1,9 +1,9 @@
 # Virtual Pet Simulator
 
 ## Names of Pair Working on This Fork
-<Enter Name 1 Here>
+Jake Pietrzak
 
-<Enter Name 2 Here>
+Kengo Hudson
 
 ## Run from Git Bash
 
