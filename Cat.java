@@ -20,4 +20,21 @@ public class Cat extends Pet {
 	public void purr() {
 		System.out.println(getName() + " purrs loudly.");
 	}
+	public void pounce(boolean stalking) {
+		if (stalking) {
+			System.out.println("...");
+			System.out.println(getName() + " pounced!");
+		} else {
+			System.out.println(getName() + " isn't stalking.");
+		}
+	}
+	public void stalk(Dog dog) {
+		if (dog == null) {
+			pounce(false);
+		} else {
+			System.out.println(getName() + " is stalking " + dog.getName());
+			pounce(true);
+		}
+
+	}
 }

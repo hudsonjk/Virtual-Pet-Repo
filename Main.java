@@ -19,7 +19,9 @@ public class Main {
 
         dog.showStatus();
         cat.showStatus();
-        
+
+        cat.stalk(dog);
+        cat.purr();
     }
     
 }
